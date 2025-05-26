@@ -10,11 +10,15 @@ body{
     /* background-size:cover; */
 }
 
+img{
+    width:100%;
+}
+
 .btn{
     color:#FFFFFF;
     background-color: #872BFF;
-    height:50px;
-    width:145px;
+    /* height:50px;
+    width:145px; */
     padding:16px 32px;
     border:none;
     border-radius: 30px;
@@ -24,6 +28,9 @@ body{
     cursor:pointer;
 }
 
+
+
+/* heading section */
 .heading_content{
     text-align:center;
 }
@@ -42,10 +49,12 @@ body{
     margin-bottom:30px;
 }
 
+
+
 /* banner section */
 #banner{
     margin:100px auto 120px;
-    height: 600px;
+    /* height: 600px; */
     width:87.5%;
     background-image: url(images/hero-bg.png);
     display:flex;
@@ -80,20 +89,20 @@ body{
 }
 
 .white_btn{
-    background-color: #FFFFFF;
-    height:50px;
-    width:145px;
+    /* background-color: #FFFFFF; */
+    /* height:50px;
+    width:145px; */
     padding:16px 32px;
     border:2px solid #872BFF;
     border-radius: 30px;
-    font-weight:bold;
-    font-size:14px;
-    margin:0 20px;
+    /* font-weight:bold; */
+    /* font-size:14px; */
+    margin:0 20px 0 0;
     cursor:pointer;
 }
 
 .banner_image{
-    width:600px;
+    width:50%;
 }
 
 
@@ -116,10 +125,11 @@ body{
     background-color: #FFFFFF;
     text-align:center;
     border-radius: 30px;
-    padding:60px;
-    width:300px;
+    padding: 100px 60px;
+    max-width:350px;
 }
 .service_card img{
+    width:80px;
     margin-bottom:30px;
 }
 .service_card h2{
@@ -132,6 +142,8 @@ body{
     color:#A8A8A8;
 }
 
+
+/* story section */
 .story_card{
     background: white;
     padding:48px;
@@ -141,11 +153,29 @@ body{
     gap:20px;
 }
 
+
+.story_content{
+    width:60%;
+}
+
+.story_image{
+    width:40%;
+}
+
+
+.story_content img{
+    width: 100px;
+}
+
 .story_content h2,
 .story_content img,
 .story_content p {
     margin-bottom: 30px
 }
+
+
+
+/* country section */
 #country_card_container{
     display:flex;
     justify-content: center;
@@ -157,6 +187,11 @@ background-color: #FFFFFF;
 padding:30px;
 border-radius: 16px;
 }
+
+
+
+
+/* review section */
 .review_box{
     background-color: #FFFFFF;
     padding:30px;
@@ -166,7 +201,7 @@ border-radius: 16px;
 .review_box .review_footer{
     display: flex;
     margin-top:60px;
-    gap:150px;
+    gap:320px;
     justify-content:flex-end;
 }
 
@@ -180,6 +215,8 @@ border-radius: 16px;
 }
 
 
+
+/* footer section */
 #footer{
     background-color: #FFFFFF;
     padding:5px;

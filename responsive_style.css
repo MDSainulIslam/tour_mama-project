@@ -1,0 +1,92 @@
+/* laptop device */
+@media screen and (max-width:1200px){
+.banner_content h1{
+    font-size: 48px;
+}
+.service_card{
+    background-color: #FFFFFF;
+    text-align:center;
+    border-radius: 30px;
+    padding: 80px 20px;
+    max-width:350px;
+}
+.story_image img{
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+
+}
+
+
+
+
+
+/* tablet device */
+@media screen and (max-width:1024px){
+#banner{
+    flex-direction:column-reverse;
+}
+.banner_content{
+    width:100%;
+}
+.banner_image{
+    width:100%;
+}
+#service_card_container{
+flex-direction: column;
+}
+.service_card{
+    max-width:100%;
+}
+
+
+.story_card{
+flex-direction: column;
+}
+.story_content{
+    width:100%;
+}
+
+.story_image{
+    width:100%;
+}
+
+.review_box .review_footer{
+    gap:5px;
+}
+
+}
+
+
+
+
+
+/* mobile device up to 425px */
+@media screen and (max-width:640px){
+.banner_content h1{
+    font-size: 36px;
+}
+.heading_content h2{
+    font-size:32px;
+}
+
+
+#country_card_container {
+flex-direction: column;
+}
+#country_card_container h2{
+    text-align: center;
+}
+.banner_content{
+    text-align: center;
+}
+
+.btn,
+.white_btn{
+    padding:12px 20px;
+}
+
+
+}
